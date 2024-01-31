@@ -6,7 +6,7 @@ sudo apt upgrade -y
 # install fish
 sudo apt-add-repository ppa:fish-shell/release-3 -y
 sudo apt update
-sudo apt instal fish
+sudo apt install fish
 chsh -s $(which fish)
 
 # install starship (interactive)
